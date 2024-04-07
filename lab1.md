@@ -1,5 +1,5 @@
 ![Image](dog.jpg)
-
+![Image](doggy.jpeg)
 
 //example of using the command with no arguments
 ls
