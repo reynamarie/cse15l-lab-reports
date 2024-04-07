@@ -16,4 +16,5 @@ ls cse15l-lab-reports/dog.jpg
 cat cse15l-lab-reports/dog.jpg
 cd cse15l-lab-reports/dog.jpg 
 
-![Image](cse15l-lab-reports/dog.jpg)
+
+![Image](dog.jpg)
