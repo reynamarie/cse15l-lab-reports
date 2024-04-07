@@ -12,10 +12,9 @@ cd cse15l-lab-reports
 
 
 example of using the command with a path to a file as an argument
-ls<cse15l-lab-reports/dog.jpg>
-cat<cse15l-lab-reports>
-cd<<cse15l-lab-reports> 
+ls cse15l-lab-reports/dog.jpg
+cat cse15l-lab-reports/dog.jpg
+cd cse15l-lab-reports/dog.jpg 
 
 
-pwd 
 ![Image](dog.jpg)
