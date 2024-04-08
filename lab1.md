@@ -15,8 +15,15 @@ cd cse15l-lab-reports
 
 example of using the command with a path to a file as an argument
 ls cse15l-lab-reports/dog.jpg
+//error, no such file or directory 
+
 cat cse15l-lab-reports/dog.jpg
+//no such file or directory 
+
 cd cse15l-lab-reports/dog.jpg 
+//error, no such file or directory 
+
+
 
 
 
