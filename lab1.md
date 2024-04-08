@@ -1,17 +1,19 @@
 //example of using the command with no arguments
 ls
-output{
+rendered output output{
      
     dog.jpg         index.md        lab1.md
 }
 
+
 cat
-blank output{
+blank rendered output{
   
 }
 
+
 cd
-blank output{
+blank rendered output{
   
 }
 
@@ -19,13 +21,13 @@ blank output{
 
 //example of using the command with a path to a directory as an argument.
 ls cse15l-lab-reports
-output{
+rendered output{
     
     dog.jpg         index.md        lab1.md
 }
 
 cat cse15l-lab-reports/index.md
-output{
+rendered output{
     
     # Lab Report 1
 
@@ -35,8 +37,9 @@ output{
     ![Image](dog.jpg)
 }
 
+
 cd cse15l-lab-reports
-output{
+rendered output{
 
     cd cse15l-lab-reports
 }
@@ -47,21 +50,21 @@ output{
 
 example of using the command with a path to a file as an argument
 ls cse15l-lab-reports/dog.jpg
-{
+rendered ouput{
 
     cse15l-lab-reports/dog.jpg
 }
 
 
 cat cse15l-lab-reports/dog.jpg
-output{
+rendered output{
 
     many random characters
 }
 
 
 cd cse15l-lab-reports/dog.jpg 
-{
+rendered output{
       
     cd: not a directory: cse15l-lab-reports/dog.jpg
 }
