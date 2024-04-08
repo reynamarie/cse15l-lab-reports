@@ -1,18 +1,5 @@
 //example of using the command with no arguments
 ls
-/*```json
-{
-  la
-}
-```
-The rendered output looks like this:
-
-{
-  ?
-}
-*/
-
-
 cat
 cd
 
