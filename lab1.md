@@ -17,7 +17,7 @@ This is not an error because 'ls' is used to list the files and folders of the g
   
 }
 ```
-The absolute path to the current working directory right before the command was run '/home/cse15l-lab-reports'
+The absolute path to the current working directory right before the command was run '/Users/reynamaharaj/Downloads/cse15l-lab-reports-main.'
 I received this output because the commad did not have any arguments. Therefore, there was nothing to print the contents of. 
 This is not an error because 'cat'. I used the command with no arguments, and the output returned nothing because no paths were given. 
 
@@ -29,7 +29,7 @@ This is not an error because 'cat'. I used the command with no arguments, and th
   
 }
 ```
-The absolute path to the current working directory right before the command was run '/home/cse15l-lab-reports'
+The absolute path to the current working directory right before the command was '/Users/reynamaharaj/Downloads/cse15l-lab-reports-main'. Because when I put in cat, the terminal didn't return nothing, not even reynamaharaj@Reynas-MacBook-Pro ~ %. So I did ls again and then continued to 'cd.'
 I received this output because the commad did not have any arguments. Therefore, there was nothing to print the contents of. 
 This is not an error because 'cat'. I used the command with no arguments, and the output returned nothing because no paths were given. 
 
@@ -42,6 +42,9 @@ This is not an error because 'cat'. I used the command with no arguments, and th
     dog.jpg         index.md        lab1.md
 }
 ```
+The absolute path to the current working directory right before the command was /Users/reynamaharaj. 
+
+
 
 `cat cse15l-lab-reports/index.md`
 ```
@@ -55,6 +58,8 @@ This is not an error because 'cat'. I used the command with no arguments, and th
 }
 ```
 
+/Users/reynamaharaj
+
 
 'cd cse15l-lab-reports'
 ```
@@ -63,9 +68,7 @@ This is not an error because 'cat'. I used the command with no arguments, and th
      cd cse15l-lab-reports
 }
 ```
-
-
-
+/Users/reynamaharaj
 
 //example of using the command with a path to a file as an argument
 'ls cse15l-lab-reports/dog.jpg'
@@ -74,15 +77,16 @@ This is not an error because 'cat'. I used the command with no arguments, and th
      cse15l-lab-reports/dog.jpg
 }
 '''
+/Users/reynamaharaj/cse15l-lab-reports
 
 
-'cat cse15l-lab-reports/dog.jpg'
+'cat cse15l-lab-reports/dog.jpg`
 '''
 {
      many random characters
 }
 '''
-
+/Users/reynamaharaj/cse15l-lab-reports
 
 'cd cse15l-lab-reports/dog.jpg'
 '''
@@ -90,7 +94,7 @@ This is not an error because 'cat'. I used the command with no arguments, and th
      cd: not a directory: cse15l-lab-reports/dog.jpg
 }
 '''
-
+/Users/reynamaharaj/cse15l-lab-reports
 
 
 
