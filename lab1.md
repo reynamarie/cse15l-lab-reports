@@ -1,32 +1,45 @@
 //example of using the command with no arguments
-ls
+'ls'
 rendered output output{
      
     dog.jpg         index.md        lab1.md
 }
+The absolute path to the current working directory right before the command was run '/home/cse15l-lab-reports'
+I received this output because  these are the files and or folder within the repository. 
+This is not an error because 'ls' is used to list the files and folders of the given path, which is exactly what it did. 
 
 
-cat
+
+`cat`
 blank rendered output{
   
 }
+The absolute path to the current working directory right before the command was run '/home/cse15l-lab-reports'
+I received this output because the commad did not have any arguments. Therefore, there was nothing to print the contents of. 
+This is not an error because 'cat'. I used the command with no arguments, and the output returned nothing because no paths were given. 
+
 
 
 cd
 blank rendered output{
   
 }
+The absolute path to the current working directory right before the command was run '/home/cse15l-lab-reports'
+I received this output because the commad did not have any arguments. Therefore, there was nothing to print the contents of. 
+This is not an error because 'cat'. I used the command with no arguments, and the output returned nothing because no paths were given. 
 
 
 
 //example of using the command with a path to a directory as an argument.
-ls cse15l-lab-reports
-rendered output{
-    
+`ls cse15l-lab-reports`
+rendered output
+```
+{
     dog.jpg         index.md        lab1.md
 }
+```
 
-cat cse15l-lab-reports/index.md
+`cat cse15l-lab-reports/index.md`
 rendered output{
     
     # Lab Report 1
