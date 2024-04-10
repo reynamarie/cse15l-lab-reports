@@ -91,6 +91,7 @@ This is not an error, the file exists, so the directory and the file given was p
 'cat cse15l-lab-reports/dog.jpg`
 '''
 {
+   
      many random characters
 }
 '''
@@ -103,7 +104,8 @@ I recived a bunch of random charcaters because cat is used to print the contents
 'cd cse15l-lab-reports/dog.jpg'
 '''
 {
-     cd: not a directory: cse15l-lab-reports/dog.jpg
+    
+    cd: not a directory: cse15l-lab-reports/dog.jpg
 }
 '''
 The absolute path to the current working directory right before the command was /Users/reynamaharaj/cse15l-lab-reports/cse15l-lab-reports-main. 
