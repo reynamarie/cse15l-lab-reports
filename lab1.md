@@ -1,5 +1,6 @@
 //example of using the command with no arguments
-'ls'
+
+    'ls'
 ```
 {
     cse15l-lab-reports dog.jpg         index.md        lab1.md
@@ -23,7 +24,7 @@ This is not an error because 'cat'. I used the command with no arguments, and th
 
 
 
-'cd'
+    'cd'
 ```
 {
   
@@ -32,6 +33,9 @@ This is not an error because 'cat'. I used the command with no arguments, and th
 The absolute path to the current working directory right before the command was '/Users/reynamaharaj/Downloads/cse15l-lab-reports-main'. Because when I put in cat, the terminal didn't return nothing, not even reynamaharaj@Reynas-MacBook-Pro ~ %. So I did ls again and then continued to 'cd.'
 I received this output because the commad did not have any arguments. Therefore, there was nothing to print the contents of. 
 This is not an error because I used the command with no arguments, and the output returned nothing because no paths were given. 
+
+
+
 
 
 
@@ -62,7 +66,8 @@ The absolute path to the current working directory right before the command was 
 I recived this output because cat is reading the contents of the index.md file int the cse15l-lab-reports directory. 
 This is not an error because this is the correct contents of the correct file that I ran the command on. 
 
-'cd cse15l-lab-reports'
+
+    'cd cse15l-lab-reports'
 ```
 {
 
@@ -76,11 +81,17 @@ THis is not an error, it is not printing anything as expected. After running it 
 
 
 
+
+
+
+
 //example of using the command with a path to a file as an argument
-'ls cse15l-lab-reports/dog.jpg'
+
+    'ls cse15l-lab-reports/dog.jpg'
 '''
 {
-     cse15l-lab-reports/dog.jpg
+            
+    cse15l-lab-reports/dog.jpg
 }
 '''
 The absolute path to the current working directory right before the command was /Users/reynamaharaj/cse15l-lab-reports. 
@@ -88,7 +99,7 @@ As mentioned before ls is used to list the files of a directory. However, when I
 This is not an error, the file exists, so the directory and the file given was printed. 
 
 
-'cat cse15l-lab-reports/dog.jpg`
+    'cat cse15l-lab-reports/dog.jpg`
 '''
 {
    
