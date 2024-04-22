@@ -1,4 +1,4 @@
-//example of using the command with no arguments
+//example of using the `ls` command with no arguments
 
 `ls`
 ```
@@ -15,7 +15,7 @@ This is not an error because `ls` is used to list the files and folders of the g
 which is exactly what it did. 
 
 
-
+//example of using the `cat` command with no arguments
 `cat`
 ```
 {
@@ -32,7 +32,7 @@ written to the stanadard input.
 
 
 
-
+//example of using the `cd` command with no arguments
 `cd`
 ```
 {
@@ -55,7 +55,7 @@ output returned nothing because no paths were given.
 
 
 
-//example of using the command with a path to a directory as an argument.
+//example of using the `ls` command with a path to a directory as an argument.
 `ls cse15l-lab-reports`
 ```
 {
@@ -69,7 +69,7 @@ This is not an error because `ls` lists the files in the current directory,
 and `dog.jpg`, `index.md`, `lab1.md` is what I made in the current directory. 
 
 
-
+//example of using the `cat` command with a path to a directory as an argument.
 `cat cse15l-lab-reports`
 ```
 {
@@ -84,6 +84,7 @@ therefore, `cat` is not able to read this directory.
 This is an error because `cat` can't be used to read directories. 
 
 
+//example of using the `cd` command with a path to a directory as an argument.
 `cd cse15l-lab-reports`
 ```
 {
@@ -102,8 +103,7 @@ which verifies that this is the new current working directory.
 
 
 
-//example of using the command with a path to a file as an argument
-
+//example of using the `ls` command with a path to a file as an argument
 `ls cse15l-lab-reports/dog.jpg`
 ```
 {
@@ -120,6 +120,7 @@ This is not an error, the file exists, so the directory and the file given
 was printed. 
 
 
+//example of using the `cat` command with a path to a file as an argument
 `cat cse15l-lab-reports/dog.jpg`
 ```
 {
@@ -137,7 +138,7 @@ I might consider an error. Howeever, this is the output that will be given
 if called upon in such way. 
 
 
-
+//example of using the `cd` command with a path to a file as an argument
 `cd cse15l-lab-reports/dog.jpg`
 ```
 {
@@ -151,3 +152,8 @@ was `/Users/reynamaharaj/cse15l-lab-reports/cse15l-lab-reports-main`.
 I received this output because `dog.jpg` is a file and the directory 
 cannot be changed into the file. 
 This is an error message because you cannot `cd` with a file as an argument. 
+
+
+//comment for grader. On my end, I can seee all of the sentences when I
+scroll to the right. Also, I fixed all of the mistakes indicated from 
+the corrections given. 
