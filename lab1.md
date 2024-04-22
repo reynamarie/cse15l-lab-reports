@@ -15,6 +15,14 @@ This is not an error because `ls` is used to list the files and folders of the g
 which is exactly what it did. 
 
 
+
+
+
+
+
+
+
+
 //example of using the `cat` command with no arguments
 
 `cat`
