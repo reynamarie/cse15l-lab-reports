@@ -33,6 +33,7 @@ written to the stanadard input.
 
 
 //example of using the `cd` command with no arguments
+
 `cd`
 ```
 {
@@ -55,6 +56,7 @@ output returned nothing because no paths were given.
 
 
 //example of using the `ls` command with a path to a directory as an argument.
+
 `ls cse15l-lab-reports`
 ```
 {
@@ -69,6 +71,7 @@ and `dog.jpg`, `index.md`, `lab1.md` is what I made in the current directory.
 
 
 //example of using the `cat` command with a path to a directory as an argument.
+
 `cat cse15l-lab-reports`
 ```
 {
@@ -122,6 +125,7 @@ was printed.
 
 
 //example of using the `cat` command with a path to a file as an argument
+
 `cat cse15l-lab-reports/dog.jpg`
 ```
 {
@@ -140,6 +144,7 @@ if called upon in such way.
 
 
 //example of using the `cd` command with a path to a file as an argument
+
 `cd cse15l-lab-reports/dog.jpg`
 ```
 {
