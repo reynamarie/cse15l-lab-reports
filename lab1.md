@@ -18,8 +18,7 @@ which is exactly what it did.
 //example of using the `cat` command with no arguments
 `cat`
 ```
-{
-  
+{  
 }
 ```
 The absolute path to the current working directory right before the command was run
@@ -36,7 +35,6 @@ written to the stanadard input.
 `cd`
 ```
 {
-  
 }
 ```
 
@@ -85,6 +83,7 @@ This is an error because `cat` can't be used to read directories.
 
 
 //example of using the `cd` command with a path to a directory as an argument.
+
 `cd cse15l-lab-reports`
 ```
 {
@@ -104,6 +103,7 @@ which verifies that this is the new current working directory.
 
 
 //example of using the `ls` command with a path to a file as an argument
+
 `ls cse15l-lab-reports/dog.jpg`
 ```
 {
