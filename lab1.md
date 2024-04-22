@@ -6,6 +6,7 @@
     cse15l-lab-reports dog.jpg         index.md        lab1.md
 }
 ```
+
 So the way in which I found the absoulate path before the command was ran was by running giving it the previous command and using pwd. The absolute path to the current working directory right before the command was run '/home/cse15l-lab-reports'. For this one I began with just pwd. 
 I received this output because  these are the files and or folder within the repository.  
 This is not an error because 'ls' is used to list the files and folders of the given path, which is exactly what it did. 
